@@ -15,13 +15,14 @@
           "update_at": 1231312312
         }
       },
-      "update_at": 1231312312,
       "alerts": {
         "telegram": {
           "status": "ok|error|lazy|timeout|etc",
-          "sender_at": 12312312212312
+          "exec_at": 12312312212312
         }
-      }
+      },
+      "status": "error|ok|partial|timeout|...",
+      "update_at": 1231312312
     },
     "status": "error|ok|partial|timeout|..."
   }
