@@ -1,0 +1,28 @@
+{
+  "btc": {
+    "coingecko": {
+      "historic": [
+        {
+          "timestamp": 12312312,
+          "amount": 15.000
+        }
+      ],
+      "markets": {
+        "binance": {
+          "url": "https://www.binance.com/en/trade/BTC_USDT?ref=H31B921U",
+          "pair": "BTC/USDT",
+          "status": "ok|review|error|timeout|etc",
+          "update_at": 1231312312
+        }
+      },
+      "update_at": 1231312312,
+      "alerts": {
+        "telegram": {
+          "status": "ok|error|lazy|timeout|etc",
+          "sender_at": 12312312212312
+        }
+      }
+    },
+    "status": "error|ok|partial|timeout|..."
+  }
+}
