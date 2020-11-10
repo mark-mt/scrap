@@ -1,2 +1,7 @@
 conda create -n scrap python=3
 source activate scrap
+source deactivate
+conda install package-name
+
+
+pip install package && pip freeze > requirements.txt
