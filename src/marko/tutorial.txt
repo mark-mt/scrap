@@ -1,0 +1,2 @@
+conda create -n scrap python=3
+source activate scrap
