@@ -1,0 +1,2 @@
+# scrap
+strapping de criptomonedas
