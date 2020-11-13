@@ -39,7 +39,6 @@
       "circulating_supply": 4160881000,
       "total_supply": 10000000000,
       "platform": {
-        "id": 1027,
         "name": "Ethereum",
         "symbol": "ETH",
         "slug": "ethereum",
@@ -47,7 +46,6 @@
       },
       "status": "error|ok|partial|timeout|...",
       "update_at": 1231312312
-    },
-    "status": "error|ok|partial|timeout|..."
+    }
   }
 }
