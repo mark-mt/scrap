@@ -1,12 +1,15 @@
 {
   "btc": {
     "coingecko": {
-      "historic": [
-        {
-          "timestamp": 12312312,
-          "amount": 15.000
-        }
-      ],
+      "price": {
+        "historic": [
+          {
+            "timestamp": 12312312,
+            "amount": 15.000
+          }
+        ],
+        "update_at": 123123
+      },
       "markets": {
         "binance": {
           "usdt": {
@@ -20,8 +23,27 @@
       "alerts": {
         "telegram": {
           "status": "ok|error|lazy|timeout|etc",
-          "exec_at": 12312312212312
+          "exec_at": 12312312212312,
+          "rules": {
+            "price_up": 20,
+            "price_down": 20,
+            "percent_change_1h": -1,
+            "percent_change_24h": 23,
+            "percent_change_7d": -9,
+            "new_token": true,
+            "show_warning": false
+          }
         }
+      },
+      "max_supply": null,
+      "circulating_supply": 4160881000,
+      "total_supply": 10000000000,
+      "platform": {
+        "id": 1027,
+        "name": "Ethereum",
+        "symbol": "ETH",
+        "slug": "ethereum",
+        "token_address": "0x6944d3e38973C4831dA24E954fbD790c7E688bDd"
       },
       "status": "error|ok|partial|timeout|...",
       "update_at": 1231312312
